@@ -124,7 +124,7 @@ int deletes( LLPtr *sPtr, int value )
 // return 1 if the list is empty, 0 otherwise
 int isEmpty( LLPtr sPtr )
 {
-   
+
    return sPtr == NULL;
 } // end function isEmpty
 
@@ -144,7 +144,7 @@ void printList( LLPtr currentPtr )
          currentPtr = currentPtr->nextPtr;
       } // end while
 
-      printf( "%d %s --> NULL\n",currentPtr->data, currentPtr->name );
+      printf( "%d %s -->NULL\n",currentPtr->data, currentPtr->name );
        
    } // end else
 } // end function printList
@@ -164,7 +164,7 @@ void printListR( LLPtr currentPtr )
          currentPtr = currentPtr->pPtr;
       } // end while
 
-      printf( "%d %s --> NULL\n",currentPtr->data, currentPtr->name );
+      printf( "%d %s -->NULL\n",currentPtr->data, currentPtr->name );
        
    } // end else
 } // end function printList
